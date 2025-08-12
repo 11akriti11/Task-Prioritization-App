@@ -9,7 +9,7 @@ public class TaskManager {
 
     public void addTask(String description, int priority) {
         taskQueue.add(new Task(description, priority));
-        System.out.println("✅ Task added.");
+        System.out.println("✅ Task added Successfully.");
     }
 
     public void removeHighestPriorityTask() {
