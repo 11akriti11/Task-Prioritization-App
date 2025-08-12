@@ -32,6 +32,7 @@ public class TaskManager {
         }
     }
 
+    // to mark a task as completed
     public void markTaskAsCompleted(String description) {
         boolean found = false;
         for (Task task : taskQueue) {
@@ -65,6 +66,7 @@ public class TaskManager {
         System.out.println("📊 Total tasks: " + taskQueue.size());
     }
 
+    // only view completed tasks
     public void viewCompletedTasks() {
         boolean found = false;
         for (Task task : taskQueue) {
