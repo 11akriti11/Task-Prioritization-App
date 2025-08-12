@@ -65,14 +65,5 @@ public class TaskManager {
         System.out.println("📊 Total tasks: " + taskQueue.size());
     }
 
-    public void viewCompletedTasks() {
-        boolean found = false;
-        for (Task task : taskQueue) {
-            if (task.isCompleted()) {
-                System.out.println(task);
-                found = true;
-            }
-        }
-        if (!found) System.out.println("❌ No completed tasks.");
-    }
+    
 }
