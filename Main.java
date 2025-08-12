@@ -18,7 +18,7 @@ public class Main {
             System.out.println("9. Exit");
             System.out.print("Choose an option: ");
             int choice = sc.nextInt();
-            sc.nextLine(); // consume newline
+            sc.nextLine(); 
 
             switch (choice) {
                 case 1:
